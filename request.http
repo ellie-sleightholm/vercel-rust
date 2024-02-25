@@ -1,0 +1,4 @@
+POST https://vercel-rust-c2ixsnszc-ellie-sleightholms-projects.vercel.app/api/simple
+Content-Type: application/json
+
+{}
