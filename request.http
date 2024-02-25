@@ -1,5 +1,15 @@
+
+// This request returns what ever id is inputted at the end of the request
+// i.e. 1 in this case
 ###
-POST https://vercel-rust-two.vercel.app/api/complex
+POST https://vercel-rust-two.vercel.app/api/user/[0]
+Content-Type: application/json
+
+{}
+
+
+###
+POST https://vercel-rust-two.vercel.app/api/user/[1]
 Content-Type: application/json
 
 {
