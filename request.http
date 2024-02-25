@@ -1,7 +1,24 @@
+
+// This request returns what ever id is inputted at the end of the request
+// i.e. 1 in this case
+###
+POST https://vercel-rust-two.vercel.app/api/user/[1]
+Content-Type: application/json
+
+{}
+
+// This is a simple API call that outputs a planet randomly generated
+###
+POST https://vercel-rust-two.vercel.app/api/simple
+Content-Type: application/json
+
+{}
+
+// This takes the user's name and outputs a randomly generated planet
 ###
 POST https://vercel-rust-two.vercel.app/api/complex
 Content-Type: application/json
 
 {
-    "trainer_name": "Ellie"
+    "name": "Ellie"
 }
