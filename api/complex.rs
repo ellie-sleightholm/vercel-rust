@@ -8,7 +8,7 @@ use vercel_runtime::{
 
 #[derive(Debug, Serialize, Deserialize)]
 struct Payload {
-    input_name: String,
+    name: String,
 }
 
 #[derive(Serialize)]
@@ -55,7 +55,7 @@ pub async fn handler(req: Request) -> Result<Response<Body>, Error> {
             .header("Content-Type", "application/json")
             .body(
                 json!({
-                  "message": format!("{} says: I choose the planet, {}!", payload.input_name, planet),
+                  "message": format!("{} says: I choose the planet, {}!", payload.name, planet),
                 })
                 .to_string()
                 .into(),
