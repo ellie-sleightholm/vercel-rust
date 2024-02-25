@@ -20,5 +20,5 @@ POST https://vercel-rust-two.vercel.app/api/complex
 Content-Type: application/json
 
 {
-    "input_name": "Ellie"
+    "name": "Ellie"
 }
