@@ -1,5 +1,7 @@
 ###
-POST https://vercel-rust-jqkaimnie-ellie-sleightholms-projects.vercel.app/api/complex
+POST https://vercel-rust-two.vercel.app/api/complex
 Content-Type: application/json
 
-{}
+{
+    "trainer_name": "Ellie"
+}
