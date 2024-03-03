@@ -4,7 +4,7 @@
 This project is a Rust API deployed on Vercel. It is designed for users to build Rust code which can then be called using POST requests. This repository is an easy to use Rust-Vercel API that can be amended for your own requirements.
 
 ## Example 
-There are 3 main API calls in the repository and they are outlined below.
+There are 3 API calls in the repository and they are outlined below:
 
 1) A basic indexing call:
     ```http
